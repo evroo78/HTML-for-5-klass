@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Приклади</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    
-    <article>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Приклади</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Bona+Nova&family=Cormorant+Infant:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="all">
+
+  <div class="main">
+    <section>
       <h2>Основне</h2>
       <ol>
         <li><a href="/Examples/first_page.html">Перша сторінка</a></li>
         <li><a href="/Examples/head_line_comments.html">Заголовки, лінії коментарі</a></li>
-        
       </ol>
-    </article>
+    </section>
     
-    <article>
+    <section>
       <h2>Таблиці</h2>
-      <h3>
-        Об'єднання комірок
-        <a href="/Table/span.html"><img src="/img/link.png" alt="link" height="30px"></a>
-      </h3>
-      <img src="/img/tb_span.png" alt="Об'єднання комірок" width="75%">
-      <h3>
-        Розміри таблиці
-        <a href="/Table/size.html"><img src="/img/link.png" alt="link" height="30px"></a>
-      </h3>
-      
-      <img src="/img/tb_size.png" alt="Розміри таблиці" width="75%">
-    </article>
-    
-    <script src="script.js"></script>
-  </body>
+      <article>
+        <h3>
+          <a name="tb_span">Об'єднання комірок</a>
+          [<a href="/Table/span.html">дивитися</a>]
+          [<a href="https://raw.githubusercontent.com/evroo78/HTML-for-5-klass/main/Table/span.html">код</a>]
+        </h3>
+        <img src="/img/tb_span.png" alt="Об'єднання комірок">
+      </article>
+      <article>
+        <h3>
+          <a name="tb_size">Розміри таблиці</a>
+          [<a href="/Table/size.html">дивитися</a>] 
+          [<a href="https://raw.githubusercontent.com/evroo78/HTML-for-5-klass/main/Table/size.html">код</a>]
+        </h3>      
+        <img src="/img/tb_size.png" alt="Розміри таблиці">
+      </article>
+      <article>
+        <h3>
+          <a name="tb_color">Кольори в табліці</a>
+          [<a href="/Table/color.html">дивитися</a>]
+          [<a href="https://raw.githubusercontent.com/evroo78/HTML-for-5-klass/main/Table/color.html">код</a>]
+        </h3>
+        <img src="/img/tb_color.png" alt="Розміри таблиці">
+      </article>
+    </section>
+  </div>
+  <script src="script.js"></script>
+  <aside>
+    <ul>
+      <li>Таблиці
+        <ul>
+          <li><a href="#tb_span">Об'єднання комірок</a></li>
+          <li><a href="#tb_size">Розміри таблиці</a></li>
+          <li><a href="#tb_color">Кольори в табліці</a></li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+    </div>
+</body>
 </html>
